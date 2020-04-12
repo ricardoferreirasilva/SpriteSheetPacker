@@ -58,7 +58,7 @@ namespace SpriteSheetPacker.XnaExporters
 
 				writer.WriteLine($"\t\t\t<Name>{categoryName}</Name>");
 				writer.WriteLine($"\t\t\t<SpriteSheetCount>1</SpriteSheetCount>");
-				writer.WriteLine($"\t\t\t<SpriteSheetSize ID='' Width='{img.Width}' Height='{img.Height}'/>");
+				writer.WriteLine($"\t\t\t<SpriteSheetSize ID='1' Width='{img.Width}' Height='{img.Height}'/>");
 
 				writer.WriteLine("\t\t</SpriteCategory>");
 				writer.WriteLine("\t</SpriteCategories>");
