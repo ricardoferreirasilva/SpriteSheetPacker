@@ -30,8 +30,10 @@ using System.IO;
 
 namespace sspack
 {
+	/*
 	public class TxtMapExporter : IMapExporter
 	{
+
 		public string MapExtension
 		{
 			get { return "txt"; }
@@ -64,4 +66,5 @@ namespace sspack
 			}
 		}
 	}
+	*/
 }

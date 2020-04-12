@@ -29,6 +29,7 @@ using System.Drawing.Imaging;
 
 namespace sspack
 {
+    /*
 	public class BmpImageExporter : IImageExporter
 	{
 		public string ImageExtension
@@ -41,4 +42,5 @@ namespace sspack
 			image.Save(filename, ImageFormat.Bmp);
 		}
 	}
+    */
 }
