@@ -1,6 +1,6 @@
-# SpriteSheetPacker
+# Sprite Sheet Packer for Bannerlord
 
-Sprite Sheet Packer is a fully featured tool for combining multiple individual images into a single, efficiently laid out image.
+This is a fork of the original Sprite Sheet Packer tool for Bannerlord. This tool generates a Bannerlord sprite-sheet compatible XML file along with the Spritesheet image.
 
 ![](https://github.com/nickgravelyn/spritesheetpacker/blob/master/images/ToolUI.png)
 
