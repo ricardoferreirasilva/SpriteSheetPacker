@@ -1,10 +1,9 @@
 # Sprite Sheet Packer for Bannerlord
 
-This is a fork of the original Sprite Sheet Packer tool for Bannerlord. This tool generates a Bannerlord sprite-sheet compatible XML file along with the Spritesheet image.
+This is a fork of the original Sprite Sheet Packer made by Nick Gravelyn and turned into a tool for Mount & Blade Bannerlord modding.
+Sprite Sheet Packer for Bannerlord is a tool generates a Bannerlord sprite-sheet compatible XML file along with the Spritesheet image.
 
 ![](https://github.com/nickgravelyn/spritesheetpacker/blob/master/images/ToolUI.png)
-
-Sprite Sheet Packer supports reading PNG, JPG, BMP, and GIF images and produces a single PNG image with all the images embedded inside of it. The resulting image is transparent anywhere an image is not drawn. The tool also produces an accompanying file that maps the image file names with their rectangles, for use in your program to find the regions of the image you are interested in.
 
 The tool has a full UI including options for setting the maximum resulting image size, padding (added to the size of the individual images), as well as options for requiring a power-of-two sized output and a square output. The tool has buttons for managing the desired images and also accepts drag-and-drop of image files into the list for true ease of use.
 
@@ -32,4 +31,5 @@ Power of two and square:
 
 For an example of parsing the text output with XNA Game Studio, see Using Sprite Sheet Packer with XNA GS.
 
+All code relating the production of a Bannerlord specific XML was written by Ricardo Ferreira da Silva.
 All code was written by Nick Gravelyn except the code for computing the efficient placement of the rectangles which was taken from the [Nuclex Framework](http://nuclexframework.codeplex.com/).
